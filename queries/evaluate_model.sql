@@ -1,2 +1,4 @@
 SELECT *
-FROM ML.EVALUATE(MODEL `endless-ripple-465615.penguins_ml.penguins_rf_model`);
+FROM ML.EVALUATE(MODEL `endless-ripple-465615-b4.penguins_ml.penguins_rf_model`);
+
+##RESULTS
