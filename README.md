@@ -34,9 +34,9 @@ BigQuery_penguins_random_forest/
     ├── evaluate_model.sql │ 
     ├── predict.sql │ 
     └── explore_data.sql 
-  ├── output/ │ 
+├── output/ │ 
     └── evaluation_results.csv 
-  ├── README.md
+├── README.md
 
 ---
 
