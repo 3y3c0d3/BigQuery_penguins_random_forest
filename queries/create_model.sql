@@ -1,7 +1,8 @@
 CREATE OR REPLACE MODEL `endless-ripple-465615-b4.penguins_ml.penguins_rf_model`
 OPTIONS(
   model_type='boosted_tree_classifier',
-  input_label_cols=['species']
+  input_label_cols=['species'],
+  data_split_method='AUTO_SPLIT'
 ) AS
 SELECT
   island,
