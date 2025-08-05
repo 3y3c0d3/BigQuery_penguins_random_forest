@@ -28,7 +28,7 @@ This project uses **Google BigQuery ML** to train a **boosted tree (random fores
 ---
 
 ## 📂 Repository Structure
-penguins_random_forest_bigquery/ ├── queries/ │ ├── create_model.sql │ ├── evaluate_model.sql │ ├── predict.sql │ └── explore_data.sql ├── output/ │ └── evaluation_results.csv ├── README.md
+BigQuery_penguins_random_forest/ ├── queries/ │ ├── create_model.sql │ ├── evaluate_model.sql │ ├── predict.sql │ └── explore_data.sql ├── output/ │ └── evaluation_results.csv ├── README.md
 
 ---
 
