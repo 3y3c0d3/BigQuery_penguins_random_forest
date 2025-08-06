@@ -2,7 +2,7 @@ SELECT
   predicted_species,
   predicted_species_probs,
   *
-FROM ML.PREDICT(MODEL `endless-ripple-465615.penguins_ml.penguins_rf_model`, (
+FROM ML.PREDICT(MODEL `endless-ripple-465615-b4.penguins_ml.penguins_rf_model`, (
   SELECT
     island,
     culmen_length_mm,
@@ -10,5 +10,5 @@ FROM ML.PREDICT(MODEL `endless-ripple-465615.penguins_ml.penguins_rf_model`, (
     flipper_length_mm,
     body_mass_g,
     sex
-  FROM `endless-ripple-465615.penguins_ml.penguins_data`
+  FROM `endless-ripple-465615-b4.penguins_ml.penguins_data`
 ));
